@@ -1,0 +1,629 @@
+{
+"records": [
+    
+    {
+
+        "name": "Alabama",
+
+        "abbreviation": "AL",
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Alaska",
+
+        "abbreviation": "AK",
+		
+		"agey": "16",
+		
+		"agem": "6"
+
+    },
+
+    {
+
+        "name": "Arizona",
+
+        "abbreviation": "AZ",		
+		
+		"agey": "16",
+		
+		"agem": "6"
+
+    },
+
+    {
+
+        "name": "Arkansas",
+
+        "abbreviation": "AR",
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "California",
+
+        "abbreviation": "CA",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Colorado",
+
+        "abbreviation": "CO",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Connecticut",
+
+        "abbreviation": "CT",		
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Delaware",
+
+        "abbreviation": "DE",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "District Of Columbia",
+
+        "abbreviation": "DC",		
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+    
+    {
+
+        "name": "Florida",
+
+        "abbreviation": "FL",		
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Georgia",
+
+        "abbreviation": "GA",		
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+   
+
+    {
+
+        "name": "Hawaii",
+
+        "abbreviation": "HI",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Idaho",
+
+        "abbreviation": "ID",		
+		
+		"agey": "16",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Illinois",
+
+        "abbreviation": "IL",		
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Indiana",
+
+        "abbreviation": "IN",		
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Iowa",
+
+        "abbreviation": "IA",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Kansas",
+
+        "abbreviation": "KS",		
+		
+		"agey": "16",
+		
+		"agem": "6"
+
+    },
+
+    {
+
+        "name": "Kentucky",
+
+        "abbreviation": "KY",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Louisiana",
+
+        "abbreviation": "LA",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Maine",
+
+        "abbreviation": "ME",		
+		
+		"agey": "16",
+		
+		"agem": "9"
+
+    },
+
+   
+    {
+
+        "name": "Maryland",
+
+        "abbreviation": "MD",		
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Massachusetts",
+
+        "abbreviation": "MA",		
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Michigan",
+
+        "abbreviation": "MI",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Minnesota",
+
+        "abbreviation": "MN",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Mississippi",
+
+        "abbreviation": "MS",		
+		
+		"agey": "16",
+		
+		"agem": "6"
+
+    },
+
+    {
+
+        "name": "Missouri",
+
+        "abbreviation": "MO",		
+		
+		"agey": "17",
+		
+		"agem": "11"
+
+    },
+
+    {
+
+        "name": "Montana",
+
+        "abbreviation": "MT",		
+		
+		"agey": "16",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Nebraska",
+
+        "abbreviation": "NE",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Nevada",
+
+        "abbreviation": "NV",		
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "New Hampshire",
+
+        "abbreviation": "NH",		
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "New Jersey",
+
+        "abbreviation": "NJ",		
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "New Mexico",
+
+        "abbreviation": "NM",		
+		
+		"agey": "16",
+		
+		"agem": "6"
+
+    },
+
+    {
+
+        "name": "New York",
+
+        "abbreviation": "NY",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "North Carolina",
+
+        "abbreviation": "NC",		
+		
+		"agey": "16",
+		
+		"agem": "6"
+
+    },
+
+    {
+
+        "name": "North Dakota",
+
+        "abbreviation": "ND",		
+		
+		"agey": "16",
+		
+		"agem": "0"
+
+    },
+
+   
+    {
+
+        "name": "Ohio",
+
+        "abbreviation": "OH",		
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Oklahoma",
+
+        "abbreviation": "OK",		
+		
+		"agey": "16",
+		
+		"agem": "6"
+
+    },
+
+    {
+
+        "name": "Oregon",
+
+        "abbreviation": "OR",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    
+    {
+
+        "name": "Pennsylvania",
+
+        "abbreviation": "PA",		
+		
+		"agey": "17",
+		
+		"agem": "6"
+
+    },
+
+    
+
+    {
+
+        "name": "Rhode Island",
+
+        "abbreviation": "RI",		
+		
+		"agey": "17",
+		
+		"agem": "6"
+
+    },
+
+    {
+
+        "name": "South Carolina",
+
+        "abbreviation": "SC",		
+		
+		"agey": "16",
+		
+		"agem": "6"
+
+    },
+
+    {
+
+        "name": "South Dakota",
+
+        "abbreviation": "SD",		
+		
+		"agey": "16",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Tennessee",
+
+        "abbreviation": "TN",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Texas",
+
+        "abbreviation": "TX",		
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Utah",
+
+        "abbreviation": "UT",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Vermont",
+
+        "abbreviation": "VT",		
+		
+		"agey": "16",
+		
+		"agem": "6"
+
+    },
+
+    
+
+    {
+
+        "name": "Virginia",
+
+        "abbreviation": "VA",		
+		
+		"agey": "18",
+		
+		"agem": "0"
+
+    },
+
+    {
+
+        "name": "Washington",
+
+        "abbreviation": "WA",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+	
+	{
+
+        "name": "West virginia",
+
+        "abbreviation": "WV",		
+		
+		"agey": "17",
+		
+		"agem": "0"
+
+    },
+
+    
+
+    {
+
+        "name": "Wisconsin",
+
+        "abbreviation": "WI",		
+		
+		"agey": "16",
+		
+		"agem": "9"
+
+    },
+
+    {
+
+        "name": "Wyoming",
+
+        "abbreviation": "WY",		
+		
+		"agey": "16",
+		
+		"agem": "6"
+
+    }
+
+]
+}

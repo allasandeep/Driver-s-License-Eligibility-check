@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html >
+<head>
+    <title>Web App</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+	<script src="jquery-2.1.3.min.js"></script>
+   	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+<div class="main" >
+  <p class="heading" style= "color:white;">{{title}}</p> 
+</div>
+<div style=" height:20px">
+</div>
+
+<form action="" method="get" class="form" name="myForm">
+<p class="sub">The Age limit varies with the state</p>
+
+       
+<select ng-model="Select1" name="Select1" class="text" >
+ <option value="">Select your option</option>
+ <option ng-repeat="x in myData"  value="{{x.abbreviation }}">{{x.name}}</option>
+ </select>
+ <br />
+
+<p id= "demo1" class="sub"></p>
+
+<p class="sub">Enter your Age to check</p>
+
+
+<input  ng-model= "pyear" name="pyear" class="text" placeholder="Enter Years" > <br>
+<input  ng-model= "pmonth"  class="text" placeholder="Enter Month" ><br /><br />
+
+<button type="button" ng-click="myFunction()"  class="button">Verify</button><button type="reset" class="button" value="Reset">Reset</button><br />
+
+<p  class="success">{{text}}</p>
+<p  class ="warning">{{warnText}}</p>
+</form>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope, $http) {
+  $http.get("States.json").then(function (response) {
+      $scope.myData = response.data.records;
+	  $scope.title = "Driver's License Eligibility Check for Full unrestricted License";
+	  $scope.myFunction = function(){
+	   if($scope.pyear == null || $scope.pmonth == null || $scope.Select1 == null )
+	   {
+	   window.alert("The fields are required");
+	   }
+	   else
+	   {  
+	     for(var i = 0; i < $scope.myData.length; i ++)
+            {        	
+	            if($scope.myData[i]["abbreviation"] == $scope.Select1)
+                  {				 
+                    if( $scope.myData[i]["agey"] < $scope.pyear )
+                    {
+					 
+                    $scope.text = "You're Eligible for Applying the Driver's License";
+                    $scope.warnText = "";
+                    }
+                    else
+                    {
+					 if( $scope.myData[i]["agey"] == $scope.pyear && $scope.myData[i]["agem"] <= $scope.pmonth)
+					 {
+					 $scope.text = "You're Eligible for Applying the Driver's License";
+                     $scope.warnText = "";
+					 }
+					 else
+					 {					 
+                     $scope.warnText = "You're not Eligible for Applying the Driver's License";
+                     $scope.text = "";
+                     }
+                   }
+				  }	   
+	        }  
+	   }	  
+	};	}); });
+</script>
+</body>
+</html>
+ 
+
